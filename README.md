@@ -1,4 +1,4 @@
-# Regionalstatistik: The Missing Manual for Germany's Regional Data
+# Regionalstatistik: The Missing Guide to Germany's Regional Data
 
 Table of Contents 
 
@@ -50,9 +50,13 @@ The statistical offices publish the [municipality directory](https://www.destati
 
 ### Federal Office for Building and Regional Planning
 
-The Federal Office for Building and Regional Planning (Bundesinstitut für Bau-, Stadt- und Raumforschung , BBSR) mains the database [INKAR](https://www.inkar.de/) ("Indikatoren und Karten zur Raum- und Stadtentwicklung“) with regional data going back to the mid-1990s. The data comes from the statistical offices and other data providers. A major advantage is that data is spatially harmonized. Changes over time in administrative boundaries are handled by combining the affected geographic units to create larger, temporally stable units comprised of two or more districts. There is little public documentation on this harmonization, but see: 
+The Federal Office for Building and Regional Planning (Bundesinstitut für Bau-, Stadt- und Raumforschung , BBSR) mains the database [INKAR](https://www.inkar.de/) ("Indikatoren und Karten zur Raum- und Stadtentwicklung“) with regional data going back to the mid-1990s. The data can be queried using the R package [bonn](https://github.com/sumtxt/bonn). The data comes from the statistical offices and other data providers. 
+
+A major advantage of the INKAR database is that data is spatially harmonized. Changes over time in administrative boundaries are handled by combining the affected geographic units to create larger, temporally stable units comprised of two or more districts. There is only some public documentation on this harmonization, but see: 
 
 * Milbert, A. (2010). [Gebietsreformen - politische Entscheidungen und Folgen für die Statistik](https://www.bbsr.bund.de/BBSR/DE/veroeffentlichungen/berichte-kompakt/2010/DL_6_2010.pdf?__blob=publicationFile&v=2). *BBSR-Berichte kompakt*. Hrsg. Bundesinsitut für Bau-, Stadt-und Raumfoschung. Bonn, 6/2010. 
+
+The BBSR crosswalks form the backbon of the R package [ags](https://github.com/sumtxt/ags) which helps to construct geography-harmonized time series of statistics not included in the INKAR database. 
 
 The predessor of the INKAR database is a series of reports published by BBSR presenting district data across Germany: 
 
