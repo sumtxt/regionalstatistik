@@ -56,7 +56,7 @@ A major advantage of the INKAR database is that data is spatially harmonized. Ch
 
 * Milbert, A. (2010). [Gebietsreformen - politische Entscheidungen und Folgen für die Statistik](https://www.bbsr.bund.de/BBSR/DE/veroeffentlichungen/berichte-kompakt/2010/DL_6_2010.pdf?__blob=publicationFile&v=2). *BBSR-Berichte kompakt*. Hrsg. Bundesinsitut für Bau-, Stadt-und Raumfoschung. Bonn, 6/2010. 
 
-The BBSR crosswalks form the backbon of the R package [ags](https://github.com/sumtxt/ags) which helps to construct geography-harmonized time series of statistics not included in the INKAR database. 
+The BBSR crosswalks form the backbon of the R package [ags](https://sumtxt.github.io/ags/) which helps to construct geography-harmonized time series of statistics not included in the INKAR database. 
 
 The predessor of the INKAR database is a series of reports published by BBSR presenting district data across Germany: 
 
