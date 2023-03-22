@@ -40,9 +40,9 @@ The following statistical offices do not provide query tools but only publish re
 
 Since the statistical offices tend to not publish all data online, it is often useful to contact them with specific data requests. There is a catalog of available data (PDF: [Regionalstatistischer Datenkatalog des Bundes und der Länder 2021](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Publikationen/Downloads/regiostatkatalog-2021.pdf?__blob=publicationFile)).
 
-Available data on [regionalstatistik.de](https://www.regionalstatistik.de/genesis/online/) goes back as far as the mid-1990s but some statistical offices provide longer time series. Another source of historic regional data are the publications of the statistical offices in Germany (and the German Reich). They are partially available as (scanned) PDFs through a digital library: [statistischebibliothek.de](https://www.statistischebibliothek.de/).
+Available data on [regionalstatistik.de](https://www.regionalstatistik.de/genesis/online/) goes back as far as the mid-1990s, but some statistical offices provide longer time series. Another source of historic regional data are the publications of the statistical offices in Germany (and the German Reich). They are partially available as (scanned) PDFs through a digital library: [statistischebibliothek.de](https://www.statistischebibliothek.de/).
 
-The statistical offices publish the [municipality directory](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/_inhalt.html) at least once each year (but recently every quarter and month). The directory provides basic information about each muncipality (e.g., size, postal code) as well as how the municipality is related to higher-level administrative and statistical units. The  directory also includes similar information for higher-level administrative units (e.g., districts). There are versions available as Excel files (since 1975) and fixed-width files (since 1993). The latter can be easily loaded in R using the function `read_gv100()` in the [wiesbaden](https://sumtxt.github.io/wiesbaden/) package.  The files in fixed-width format typically include more information. 
+The statistical offices publish the [municipality directory](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/_inhalt.html) at least once each year (but recently every quarter and month). The directory provides basic information about each municipality (e.g., size, postal code) as well as how the municipality is related to higher-level administrative and statistical units. The directory also includes similar information for higher-level administrative units (e.g., districts). There are versions available as Excel files (since 1975) and fixed-width files (since 1993). The latter can be easily loaded in R using the function `read_gv100()` in the [wiesbaden](https://sumtxt.github.io/wiesbaden/) package.  The files in fixed-width format typically include more information. 
 
 
 
@@ -54,13 +54,13 @@ The Federal Office for Building and Regional Planning (Bundesinstitut für Bau-,
 
 The predessor of the INKAR database is a series of reports published by BBSR presenting district data across Germany: 
 
-* Gatzweiler, Hans-Peter and Runge, Ludwig. 1984. Aktuelle Daten zur Entwicklung der Städte, Kreise und Gemeinden 1984. Laufende Raumbeobachtung. Bundesforschungsanstalt für Landeskunde und Raumordnung. [Table of Contents](https://osf.io/j6s29/)
-* Bundesforschungsanstalt für Landeskunde und Raumordnung (Hg.) 1992. Materialien zur Raumentwicklung. Laufende Raumbeobachtung. Aktuelle Daten zur Entwicklung der Städte, Kreise und Gemeinden: 1989/90. Heft 47, Bonn. [Table of Contents](https://osf.io/7w6u3/)
+* Gatzweiler, Hans-Peter and Runge, Ludwig. 1984. Aktuelle Daten zur Entwicklung der Städte, Kreise und Gemeinden 1984. Laufende Raumbeobachtung. Bundesforschungsanstalt für Landeskunde und Raumordnung. [Table of Contents](./files/TOC/Aktuelle_Daten_zur_Entwicklung_der_Städte_Kreise_und_Gemeinden_1984.pdf)
+* Bundesforschungsanstalt für Landeskunde und Raumordnung (Hg.) 1992. Materialien zur Raumentwicklung. Laufende Raumbeobachtung. Aktuelle Daten zur Entwicklung der Städte, Kreise und Gemeinden: 1989/90. Heft 47, Bonn. [Table of Contents](./files/TOC/Aktuelle_Daten_zur_Entwicklung_der_Städte_Kreise_und_Gemeinden_1989-90.pdf)
 * Bundesforschungsanstalt für Landeskunde und Raumordnung (Hg.) 1995. Materialien zur Raumentwicklung. Laufende Raumbeobachtung. Aktuelle Daten zur Entwicklung der Städte, Kreise und Gemeinden 1992/93. Heft 67, Bonn. [Table of Contents]
-* Bundesamtes für Bauwesen und Raumordnung (Hg.) 1998. Aktuelle Daten zur Entwicklung der Städte, Kreis und Gemeinden. Ausgabe 1998. Band 1, Bonn. [Table of Contents](https://osf.io/bvt82/)
+* Bundesamtes für Bauwesen und Raumordnung (Hg.) 1998. Aktuelle Daten zur Entwicklung der Städte, Kreis und Gemeinden. Ausgabe 1998. Band 1, Bonn. [Table of Contents](./files/TOC/Aktuelle_Daten_zur_Entwicklung_der_Städte_Kreise_und_Gemeinden_Ausgabe_1998.pdf)
 * Bundesamtes für Bauwesen und Raumordnung (Hg.) 1999.  Aktuelle Daten zur Entwicklung der Städte, Kreise und Gemeinden. Ausgabe 1999. Band 3, Bonn. [Table of Contents]
 
-Copies of these reports are available in many univeristies libraries, including for the library of the Humbolt University (HU Bibliothek, ZwB Naturwissenschaften in Adlershof). 
+Copies of these reports are available in many university libraries, including for the library of the Humbolt University (HU Bibliothek, ZwB Naturwissenschaften in Adlershof). 
 
  
 
@@ -73,7 +73,7 @@ Copies of these reports are available in many univeristies libraries, including 
 
 * The Deutscher Wetterdienst (DWD) provides data on the weather for geo-referenced weather stations or gridded data. The data can be queried through the [Climate Data Center Portal](https://cdc.dwd.de/portal/) or downloaded in bulk from an [FTP](https://opendata.dwd.de/climate_environment/CDC/) server. 
 
-* Federal election results for all parties/candidates and down to the electoral ward is available from the [Federal Returning Officer (Bundeswahlleiter)](https://www.bundeswahlleiter.de/). The statistical offices typically only publish data for the major parties and aggregate to the municipality or distric level. 
+* Federal election results for all parties/candidates and down to the electoral ward is available from the [Federal Returning Officer (Bundeswahlleiter)](https://www.bundeswahlleiter.de/). The statistical offices typically only publish data for the major parties and aggregate to the municipality or district level. 
 
   
 
