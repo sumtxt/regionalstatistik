@@ -1,7 +1,7 @@
 # A Guide to Germany's Regional Data
 
 This version: March 24, 2022. 
-_Comment, edits and additions very welcome!_
+_Comments, edits and additions very welcome!_
 
 
 ### Table of Contents 
