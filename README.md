@@ -8,7 +8,7 @@ Table of Contents
 4. Data about Cities 
 5. Independent Data Collections 
 
-This version: March 24, 2022
+This version: March 24, 2022. _Comment, edits and additions very welcome!_
 
 ### Statistical Offices of the Länder
 
