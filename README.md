@@ -1,6 +1,10 @@
 # A Guide to Germany's Regional Data
 
-Table of Contents 
+This version: March 24, 2022. 
+_Comment, edits and additions very welcome!_
+
+
+### Table of Contents 
 
 1. Statistical Offices of the Länder
 2. Federal Office for Building and Regional Planning
@@ -10,7 +14,6 @@ Table of Contents
 
 
 
-This version: March 24, 2022. _Comment, edits and additions very welcome!_
 
 
 
