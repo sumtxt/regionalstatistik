@@ -1,4 +1,4 @@
-# Regionalstatistik: The Missing Guide to Germany's Regional Data
+# A Guide to Germany's Regional Data
 
 Table of Contents 
 
@@ -8,6 +8,7 @@ Table of Contents
 4. Data about Cities 
 5. Independent Data Collections 
 
+This version: March 24, 2022
 
 ### Statistical Offices of the Länder
 
