@@ -1,6 +1,6 @@
 # A Guide to Germany's Regional Data
 
-This version: March 24, 2022. 
+This version: February 13, 2024. 
 _Comments, edits and additions very welcome!_
 
 
@@ -97,7 +97,7 @@ Most major cities form their own district (these districts are called Stadtkreis
 
 - Eurostat, the statistical office of the European Union, maintains the [City Database](https://ec.europa.eu/eurostat/web/cities/data/database) which includes data from about 125 cities in Germany. These cities include major cities that form their own district (Stadtkreise) but also a few smaller cities. 
 - Many cities make neighorhood data available through their open data portals or the website of the local statistical office. Example from Cologne: [Offene Daten Köln](https://www.offenedaten-koeln.de/), [Geoportal Köln](https://www.stadt-koeln.de/politik-und-verwaltung/geoportal/) and [Statistikatlas Köln](https://www.stadt-koeln.de/politik-und-verwaltung/statistik/statistikatlas-koeln) 
-- The Association of German Cities (Deutscher Städtetag) used to compile the annual Statistical Yearbook of German Municipalities (Statistisches Jahrbuch Deutscher Gemeinden) providing data on the largest municipalities. The last yearbook was published in 2013. Copies are available in various libraries including the Staatsbibliothek zu Berlin: https://stabikat.de/DB=1/XMLPRS=N/PPN?PPN=129075612 and a few editions are available online as PDFs: [1956 / 44. Jahrgang](https://archive.org/details/statistischesja00stgoog/page/n7) and [1986 / 73. Jahrgang](https://archive.org/details/statistischesja02stgoog/page/n8). 
+- The Association of German Cities (Deutscher Städtetag) used to compile the annual Statistical Yearbook of German Municipalities (Statistisches Jahrbuch Deutscher Gemeinden) providing data on the largest municipalities. The last yearbook was published in 2013. Scans for all editions are available from the TU Braunschweig: https://doi.org/10.24355/dbbs.084-202112171650-0
 
 
 
