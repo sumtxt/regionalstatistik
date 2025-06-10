@@ -7,10 +7,11 @@ _Additions, comments and edits are very welcome!_
 ### Table of Contents 
 
 1. Statistical Offices of the Länder
-2. Federal Office for Building and Regional Planning
-3. Other Government Data Providers
-4. Data about Cities 
-5. Independent Data Collections 
+2. German census
+3. Federal Office for Building and Regional Planning
+4. Other Government Data Providers
+5. Data about Cities 
+6. Independent Data Collections 
 
 
 
@@ -53,6 +54,11 @@ Since the statistical offices tend to not publish all data online, it is often u
 Available data on [regionalstatistik.de](https://www.regionalstatistik.de/genesis/online/) goes back as far as the mid-1990s, but some statistical offices provide longer time series. Another source of historic regional data are the publications of the statistical offices in Germany (and the German Reich). They are partially available as (scanned) PDFs through a digital library: [statistischebibliothek.de](https://www.statistischebibliothek.de/).
 
 The statistical offices publish the [municipality directory](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/_inhalt.html) at least once each year (but recently every quarter and month). The directory provides basic information about each municipality (e.g., size, postal code) as well as how the municipality is related to higher-level administrative and statistical units. The directory also includes similar information for higher-level administrative units (e.g., districts). There are versions available as Excel files (since 1975) and fixed-width files (since 1993). The latter can be easily loaded in R using the function `read_gv100()` in the [wiesbaden](https://sumtxt.github.io/wiesbaden/) package.  The files in fixed-width format typically include more information. 
+
+
+### German census
+
+The German Census, known as "Zensus" in Germany, is a comprehensive statistical survey conducted periodically (so far: 2011 and 2022) to gather fundamental data about the population, households, and housing stock across the country. Based on EU law it is conducted decennially and included around 10 million people in Germany in the past. A particularly valuable aspect of these censuses is the availability of data at a highly granular, grid-level resolution, offering insights beyond traditional administrative boundaries. Data is available at a 100m² and 1km² resolution as well as 10km² in 2022. This standardized spatial reference facilitates consistent comparisons across different regions and over time. The primary data source for these grid-level statistics is the Federal Statistical Office of Germany (Statistisches Bundesamt) and the statistical offices of the Länder. The data can be explored and loaded using the [z22](https://jslth.github.io/z22) R package.
 
 
 
