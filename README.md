@@ -7,7 +7,7 @@ _Additions, comments and edits are very welcome!_
 ### Table of Contents 
 
 1. Statistical Offices of the Länder
-2. German census
+2. Federal Statistical Office of Germany
 3. Federal Office for Building and Regional Planning
 4. Other Government Data Providers
 5. Data about Cities 
@@ -56,10 +56,9 @@ Available data on [regionalstatistik.de](https://www.regionalstatistik.de/genesi
 The statistical offices publish the [municipality directory](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/_inhalt.html) at least once each year (but recently every quarter and month). The directory provides basic information about each municipality (e.g., size, postal code) as well as how the municipality is related to higher-level administrative and statistical units. The directory also includes similar information for higher-level administrative units (e.g., districts). There are versions available as Excel files (since 1975) and fixed-width files (since 1993). The latter can be easily loaded in R using the function `read_gv100()` in the [wiesbaden](https://sumtxt.github.io/wiesbaden/) package.  The files in fixed-width format typically include more information. 
 
 
-### German census
+### Federal Statistical Office of Germany
 
-The German Census, known as "Zensus" in Germany, is a comprehensive statistical survey conducted periodically (so far: 2011 and 2022) to gather fundamental data about the population, households, and housing stock across the country. Based on EU law it is conducted decennially and included around 10 million people in Germany in the past. A particularly valuable aspect of these censuses is the availability of data at a highly granular, grid-level resolution, offering insights beyond traditional administrative boundaries. Data is available at a 100m² and 1km² resolution as well as 10km² in 2022. This standardized spatial reference facilitates consistent comparisons across different regions and over time. The primary data source for these grid-level statistics is the Federal Statistical Office of Germany (Statistisches Bundesamt) and the statistical offices of the Länder. The data can be explored and loaded using the [z22](https://jslth.github.io/z22) R package. It is also available in a non-processed format [here](https://www.zensus2022.de/EN/Census_results/_inhalt.html).
-
+In addition to the statistical offices of the Länder, the Federal Statistical Office of Germany (Statistisches Bundesamt, Destatis) also provides some regional data. Among the relevant data products is raster grid-level data from the 2011/22 German census data collections. Data is available at 100m², 1km², and 10km² resolutions as of 2022. The data can be accessed via the [zensus2022.de](https://www.zensus2022.de/EN/Census_results/_inhalt.html) website. There is also an R package, [z22](https://jslth.github.io/z22), facilitating data access.
 
 
 ### Federal Office for Building and Regional Planning
