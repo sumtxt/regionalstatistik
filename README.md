@@ -7,10 +7,11 @@ _Additions, comments and edits are very welcome!_
 ### Table of Contents 
 
 1. Statistical Offices of the Länder
-2. Federal Office for Building and Regional Planning
-3. Other Government Data Providers
-4. Data about Cities 
-5. Independent Data Collections 
+2. Federal Statistical Office of Germany
+3. Federal Office for Building and Regional Planning
+4. Other Government Data Providers
+5. Data about Cities 
+6. Independent Data Collections 
 
 
 
@@ -54,6 +55,10 @@ Available data on [regionalstatistik.de](https://www.regionalstatistik.de/genesi
 
 The statistical offices publish the [municipality directory](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/_inhalt.html) at least once each year (but recently every quarter and month). The directory provides basic information about each municipality (e.g., size, postal code) as well as how the municipality is related to higher-level administrative and statistical units. The directory also includes similar information for higher-level administrative units (e.g., districts). There are versions available as Excel files (since 1975) and fixed-width files (since 1993). The latter can be easily loaded in R using the function `read_gv100()` in the [wiesbaden](https://sumtxt.github.io/wiesbaden/) package.  The files in fixed-width format typically include more information. 
 
+
+### Federal Statistical Office of Germany
+
+In addition to the statistical offices of the Länder, the Federal Statistical Office of Germany (Statistisches Bundesamt, Destatis) also provides some regional data. Among the relevant data products is raster grid-level data from the 2011/22 German census data collections. Data is available at 100m², 1km², and 10km² resolutions as of 2022. The data can be accessed via the [zensus2022.de](https://www.zensus2022.de/EN/Census_results/_inhalt.html) website. There is also an R package, [z22](https://jslth.github.io/z22), facilitating data access.
 
 
 ### Federal Office for Building and Regional Planning
